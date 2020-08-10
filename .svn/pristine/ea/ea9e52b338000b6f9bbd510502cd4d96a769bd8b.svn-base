@@ -1,0 +1,41 @@
+package edu.skku.finalproject.studyhelper;
+
+public class Member {
+    String name = "";
+    String attendance = "불참";
+    Location location = null;
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public Member() {
+    }
+
+    public Member(String name, String attendance, Location location) {
+        this.name = name;
+        this.attendance = attendance;
+        this.location = location;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String  getAttendance() {
+        return attendance;
+    }
+
+    public void setAttendance(String  attendance) {
+        this.attendance = attendance;
+    }
+}
+

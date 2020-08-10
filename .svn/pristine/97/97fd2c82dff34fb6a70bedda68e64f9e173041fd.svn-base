@@ -1,0 +1,61 @@
+package edu.skku.finalproject.studyhelper.dto;
+
+import com.google.android.gms.maps.model.LatLng;
+
+public class Member {
+    String number = "";
+    String name = "";
+    String att = "";
+    Location loc;
+    android.location.Location location = null;
+    LatLng currentLocation=null;
+    public void setCurrentLocation(LatLng currentLocation){this.currentLocation = currentLocation;}
+    public LatLng getCurrentLocation(){return currentLocation;}
+    public android.location.Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(android.location.Location location) {
+        this.location = location;
+    }
+
+    public Member() { }
+
+    public Member(String number, String name, String att, Location loc, LatLng currentLocation) {
+        this.number = number;
+        this.name = name;
+        this.att = att;
+        this.loc = loc;
+        this.currentLocation = currentLocation;
+    }
+
+    public Member(String number, String name, String att, Location loc) {
+        this.number = number;
+        this.name = name;
+        this.att = att;
+        this.loc = loc;
+    }
+
+    public Member(String name, android.location.Location location) {
+        this.name = name;
+        this.location = location;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public String getNumber() {return number;}
+    public void setNumber(){this.number = number;}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAtt() {
+        return att;
+    }
+
+    public void setAtt(String att) {
+        this.att = att;
+    }
+}
+

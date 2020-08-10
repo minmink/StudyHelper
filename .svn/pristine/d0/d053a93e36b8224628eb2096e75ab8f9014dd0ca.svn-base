@@ -1,0 +1,103 @@
+package edu.skku.finalproject.studyhelper.fragment;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import edu.skku.finalproject.studyhelper.R;
+import edu.skku.finalproject.studyhelper.dto.Location;
+import edu.skku.finalproject.studyhelper.dto.Member;
+import edu.skku.finalproject.studyhelper.dto.Study;
+
+
+public class StudyListFragment extends Fragment {
+    Context mContext;
+    TextView textView1, textView2, textView3;
+    ArrayList studies = new ArrayList<>();
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View v=inflater.inflate(R.layout.fragment_study_list, container, false);
+
+        //출결 정보가 있는 스터디 (이미 끝난 스터디)
+        Member[] students1 = new Member[3];
+        students1[0]=new Member("010-1234-5678","Student1","출석",new Location("종로", "123.123,123.123"));
+        students1[1]=new Member("010-1234-5678","Student2","지각",new Location("종로", "123.123,123.123"));
+        students1[2]=new Member("010-1234-5678","Student3","지각",new Location("종로", "123.123,123.123"));
+        Study study1 = new Study("2018-12-01",new Location("종로", "123.123,123.123"), Arrays.asList(students1));
+        studies.add(study1);
+
+        //출결 정보가 없는 스터디 (아직 만나지 않은 스터디)
+        Member[] students2 = new Member[3];
+        students2[0]=new Member("Student1",new Location("종로", "123.123,123.123"));
+        students2[1]=new Member("Student2",new Location("종로", "123.123,123.123"));
+        students2[2]=new Member("Student3",new Location("종로", "123.123,123.123"));
+        Study study2 = new Study("2018-12-03", new Location("종로", "123.123,123.123"), Arrays.asList(students2));
+        studies.add(study2);
+
+        textView1=(TextView)  v.findViewById(R.id.text_study_list_1);
+        textView2=(TextView)  v.findViewById(R.id.text_study_list_2);
+        textView3=(TextView)  v.findViewById(R.id.text_study_list_3);
+
+        //마지막 스터디의 멤버 한 명
+        Member check=((List<Member>)((Study)studies.get(studies.size()-1)).getMember()).get(0);
+
+        //스터디 생성 필요 없음 (마지막 스터디 - 몇 번째? 날짜? 장소?)
+        if (check.getAtt()=="") {
+            textView1.setText(Integer.toString(studies.size())+"번째 스터디");
+            textView2.setText(((Study)studies.get(studies.size()-1)).getDate());
+            textView3.setText(((Study)studies.get(studies.size()-1)).getLocation().getName());
+        }
+        else { //스터디 생성해야함
+
+            textView1.setText(Integer.toString(studies.size()+1)+"번째 스터디");
+            textView2.setText("새로운 스터디를\n추가해주세요.");
+            /*
+            LayoutInflater inflater_dialog=getLayoutInflater();
+            final View dialogView = inflater_dialog.inflate(R.layout.dialog_new, null);
+            AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+
+            builder.setTitle("스터디 추가");
+            builder.setView(dialogView);
+            Button button = (Button) dialogView.findViewById(R.id.btn_new);
+
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    EditText editText1 = (EditText) dialogView.findViewById(R.id.edit_new_1);
+                    EditText editText2 = (EditText) dialogView.findViewById(R.id.edit_new_2);
+
+                    String date=editText1.getText().toString();
+
+                    //study 객체에 추가하기........
+
+                    textView1.setText(Integer.toString(studies.size())+"번째 스터디");
+                    textView2.setText(((Study)studies.get(studies.size()-1)).getDate());
+                    textView3.setText(((Study)studies.get(studies.size()-1)).getLocation().getName());
+
+                    //builder.dismiss();
+                    builder.hide();
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
+            dialog.setCanceledOnTouchOutside(false);
+            */
+        }
+
+        return v;
+    }
+
+}

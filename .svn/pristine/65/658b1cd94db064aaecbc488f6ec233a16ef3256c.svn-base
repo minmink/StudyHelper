@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "744348398652",
+    "firebase_url": "https://studyhelper-1543478651930.firebaseio.com",
+    "project_id": "studyhelper-1543478651930",
+    "storage_bucket": "studyhelper-1543478651930.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744348398652:android:d4070ebb27f329c5",
+        "android_client_info": {
+          "package_name": "edu.skku.finalproject.studyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744348398652-nj1u7u3vasdgdvm7ht2bll8jba7at3e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.finalproject.studyhelper",
+            "certificate_hash": "75750a83a1e89102ce9264ea98cf546e0de9f3e6"
+          }
+        },
+        {
+          "client_id": "744348398652-gvutl499a66r1npq913qlp0609daj2sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUyZ7YshLDUnfwowuZi3mKgRPHxJJyMig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744348398652-gvutl499a66r1npq913qlp0609daj2sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+package edu.skku.finalproject.studyhelper.dialog;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.view.View;
+
+import edu.skku.finalproject.studyhelper.R;
+
+public class StudyCreateDialog extends Dialog implements View.OnClickListener{
+
+
+
+    public StudyCreateDialog(@NonNull Context context) {
+        super(context);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.tv_cancel_create:
+                cancel();
+                break;
+            case R.id.tv_create:
+                // TODO: 스터디 생성 구현
+                break;
+        }
+
+
+    }
+
+
+}

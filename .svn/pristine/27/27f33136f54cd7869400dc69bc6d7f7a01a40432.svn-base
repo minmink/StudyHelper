@@ -1,0 +1,56 @@
+package edu.skku.finalproject.studyhelper.dto;
+
+public class Member {
+
+    String name = "";
+    String att = "";
+    Location startLocation = null;
+    Location currentLocation=null;
+    public void setCurrentLocation(Location currentLocation){this.currentLocation = currentLocation;}
+    public Location getCurrentLocation(){return currentLocation;}
+    public Location getStartLocation() {
+        return startLocation;
+    }
+
+    public void setStartLocation(Location startLocation) {
+        this.startLocation = startLocation;
+    }
+
+    public Member() { }
+
+    public Member( String name, String att, Location loc, Location currentLocation) {
+
+        this.name = name;
+        this.att = att;
+        this.startLocation = loc;
+        this.currentLocation = currentLocation;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAtt() {
+        return att;
+    }
+
+    public void setAtt(String att) {
+        this.att = att;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "name='" + name + '\'' +
+                ", att='" + att + '\'' +
+                ", startLocation=" + startLocation +
+                ", currentLocation=" + currentLocation +
+                '}';
+    }
+}
+

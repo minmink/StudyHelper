@@ -1,0 +1,116 @@
+package edu.skku.finalproject.studyhelper.activity;
+
+import android.Manifest;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Build;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import edu.skku.finalproject.studyhelper.R;
+import edu.skku.finalproject.studyhelper.adapter.TabPagerAdapter;
+
+public class MainActivity extends AppCompatActivity {
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    public static String MYNAME = "";
+    double lon, lat;
+    LocationManager locationManager;
+
+    LocationListener locationListener = new LocationListener() {
+        @Override
+        public void onLocationChanged(Location location) { // location이 변했을 때
+            lat=location.getLatitude();
+            lon=location.getLongitude();
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+
+        }
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        // Initializing the TabLayout
+        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        tabLayout.addTab(tabLayout.newTab().setText("다음\n스터디"));
+        tabLayout.addTab(tabLayout.newTab().setText("스터디원"));
+        tabLayout.addTab(tabLayout.newTab().setText("스터디\n추가"));
+        tabLayout.addTab(tabLayout.newTab().setText("출결 확인"));
+        tabLayout.addTab(tabLayout.newTab().setText("스터디원\n위치"));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        // Initializing ViewPager
+        viewPager = (ViewPager) findViewById(R.id.pager);
+
+        // Creating edu.skku.finalproject.studyhelper.adapter.TabPagerAdapter adapter
+        TabPagerAdapter pagerAdapter = new TabPagerAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(pagerAdapter);
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+        // Set TabSelectedListener
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
+        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        boolean canUseLocation=false;
+
+        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.M){
+            if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)!= PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1234);
+            } else {
+                canUseLocation=true;
+            }
+        } else {
+            canUseLocation=true;
+        }
+
+        if(canUseLocation) {
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 10, locationListener);
+            Location lastLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+            lat = lastLocation.getLatitude();
+            lon = lastLocation.getLongitude();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        locationManager.removeUpdates(locationListener);
+        super.onDestroy();
+    }
+}

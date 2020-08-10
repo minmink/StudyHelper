@@ -1,0 +1,58 @@
+package edu.skku.finalproject.studyhelper.model;
+
+public class Member {
+    String number = "";
+    String name = "";
+    String att = "";
+    Location location = null;
+    String currentLocation=null;
+    public void setCurrentLocation(String currentLocation){this.currentLocation = currentLocation;}
+    public String getCurrentLocation(){return currentLocation;}
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public Member() { }
+
+    public Member(String number, String name, String att, Location location, String currentLocation) {
+        this.number = number;
+        this.name = name;
+        this.att = att;
+        this.location = location;
+        this.currentLocation = currentLocation;
+    }
+
+    public Member(String number, String name, String att, Location location) {
+        this.number = number;
+        this.name = name;
+        this.att = att;
+        this.location = location;
+    }
+
+    public Member(String name, Location location) {
+        this.name = name;
+        this.location = location;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public String getNumber() {return number;}
+    public void setNumber(){this.number = number;}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAtt() {
+        return att;
+    }
+
+    public void setAtt(String att) {
+        this.att = att;
+    }
+}
+

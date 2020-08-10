@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/50705b44e5cddf619280b8b93ba2709d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d4a16366e77c2fe7c2572ec1a7494daa/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4a7ac9de30d3b1a94ff6a162f3874500/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/36eda8d291b01444b8e2792e6d7ec3ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/71a2bd26427add9e7416b0e42d78969c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0a99d60c51763c8156399f85505a031a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3795977bc19d3d961bb84ba3ebc58560/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9d909955fddbde67f0fc59b8680fafaf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/73dd992150334b220f91a3b2d9035cef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9bc533943e1fe2c8a844cc2a46ebe6b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d781a5862c90c0aecacf9e0d7cb7cadc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b1ef2d266699bfd1fa15efe9f3f59298/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/59b13579f065f8598dac1e54e3820e53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0757700fbf0cfed5cbbb3778d297d2ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/48fa3c33b625b102ea4bd2c7825ce8b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f3867030bbec8bc2506a8782e6c4be69/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4b5dbdcbb5ae12b9fc0a819006a8baa4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d1425a7b7808ac4d93d490c5930b4a0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/47b6d80ac5c42cf24de9a51436106e8b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b50e208170aae9241b8a5cdd81afc1a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c7ca53d813acce3358ee1cd4b83b6b3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f4e37ba4bec34608ed16dd86831e7e52/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f477fad0d5a0f863948aca693e12cabb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3631d079f8055dc456fa2d0bf2ab56e2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbbb39a15c07920a150ec9c6c61b1a59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b97de76fbad882abdc23795ae332f32b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d4a16366e77c2fe7c2572ec1a7494daa/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d4a16366e77c2fe7c2572ec1a7494daa/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f3867030bbec8bc2506a8782e6c4be69/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f3867030bbec8bc2506a8782e6c4be69/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:11:9-40
+activity#edu.skku.finalproject.studyhelper.MainActivity
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/50705b44e5cddf619280b8b93ba2709d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/50705b44e5cddf619280b8b93ba2709d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d4a16366e77c2fe7c2572ec1a7494daa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d4a16366e77c2fe7c2572ec1a7494daa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4a7ac9de30d3b1a94ff6a162f3874500/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4a7ac9de30d3b1a94ff6a162f3874500/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/36eda8d291b01444b8e2792e6d7ec3ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/36eda8d291b01444b8e2792e6d7ec3ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/71a2bd26427add9e7416b0e42d78969c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/71a2bd26427add9e7416b0e42d78969c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0a99d60c51763c8156399f85505a031a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0a99d60c51763c8156399f85505a031a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3795977bc19d3d961bb84ba3ebc58560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3795977bc19d3d961bb84ba3ebc58560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9d909955fddbde67f0fc59b8680fafaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9d909955fddbde67f0fc59b8680fafaf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/73dd992150334b220f91a3b2d9035cef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/73dd992150334b220f91a3b2d9035cef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9bc533943e1fe2c8a844cc2a46ebe6b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9bc533943e1fe2c8a844cc2a46ebe6b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d781a5862c90c0aecacf9e0d7cb7cadc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d781a5862c90c0aecacf9e0d7cb7cadc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b1ef2d266699bfd1fa15efe9f3f59298/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b1ef2d266699bfd1fa15efe9f3f59298/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/59b13579f065f8598dac1e54e3820e53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/59b13579f065f8598dac1e54e3820e53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0757700fbf0cfed5cbbb3778d297d2ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0757700fbf0cfed5cbbb3778d297d2ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/48fa3c33b625b102ea4bd2c7825ce8b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/48fa3c33b625b102ea4bd2c7825ce8b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5c45227a25de62185c7bf6b2bb9311bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f3867030bbec8bc2506a8782e6c4be69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f3867030bbec8bc2506a8782e6c4be69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4b5dbdcbb5ae12b9fc0a819006a8baa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4b5dbdcbb5ae12b9fc0a819006a8baa4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d1425a7b7808ac4d93d490c5930b4a0a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d1425a7b7808ac4d93d490c5930b4a0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/47b6d80ac5c42cf24de9a51436106e8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/47b6d80ac5c42cf24de9a51436106e8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b50e208170aae9241b8a5cdd81afc1a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b50e208170aae9241b8a5cdd81afc1a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c7ca53d813acce3358ee1cd4b83b6b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c7ca53d813acce3358ee1cd4b83b6b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f4e37ba4bec34608ed16dd86831e7e52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f4e37ba4bec34608ed16dd86831e7e52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f477fad0d5a0f863948aca693e12cabb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f477fad0d5a0f863948aca693e12cabb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3631d079f8055dc456fa2d0bf2ab56e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3631d079f8055dc456fa2d0bf2ab56e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbbb39a15c07920a150ec9c6c61b1a59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbbb39a15c07920a150ec9c6c61b1a59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b97de76fbad882abdc23795ae332f32b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/kwanghyun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b97de76fbad882abdc23795ae332f32b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kwanghyun/Desktop/Projects/Android/svn/StudyHelper/app/src/main/AndroidManifest.xml

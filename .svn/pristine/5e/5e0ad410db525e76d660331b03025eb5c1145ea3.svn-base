@@ -1,0 +1,94 @@
+package edu.skku.finalproject.studyhelper.fragment;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+
+import edu.skku.finalproject.studyhelper.R;
+import edu.skku.finalproject.studyhelper.activity.MainActivity;
+import edu.skku.finalproject.studyhelper.dto.Study;
+
+
+public class StudyListFragment extends Fragment {
+    Context mContext;
+    TextView textView1, textView2, textView3;
+    ArrayList studies = MainActivity.studies;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View v=inflater.inflate(R.layout.fragment_study_list, container, false);
+
+        textView1=(TextView)  v.findViewById(R.id.text_study_list_1);
+        textView2=(TextView)  v.findViewById(R.id.text_study_list_2);
+        textView3=(TextView)  v.findViewById(R.id.text_study_list_3);
+
+        //마지막 스터디의 멤버 한 명
+        Study next=null;
+        int num=1;
+        for (Object s:studies){
+            if (((Study)s).getStatus().equals("완료")){
+                num++;
+                continue;
+            } else {
+                next=(Study)s;
+                break;
+            }
+        }
+
+        //스터디 생성 필요 없음 (마지막 스터디 - 몇 번째? 날짜? 장소?)
+        if (next!=null) {
+            textView1.setText(num+"번째 스터디");
+            textView2.setText(next.getDate());
+            textView3.setText(next.getLocation().getName());
+        }
+        else { //스터디 생성해야함
+
+            textView1.setText(num+"번째 스터디");
+            textView2.setText("새로운 스터디를\n추가해주세요.");
+            /*
+            LayoutInflater inflater_dialog=getLayoutInflater();
+            final View dialogView = inflater_dialog.inflate(R.layout.dialog_new, null);
+            AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+
+            builder.setTitle("스터디 추가");
+            builder.setView(dialogView);
+            Button button = (Button) dialogView.findViewById(R.id.btn_new);
+
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    EditText editText1 = (EditText) dialogView.findViewById(R.id.edit_new_1);
+                    EditText editText2 = (EditText) dialogView.findViewById(R.id.edit_new_2);
+
+                    String date=editText1.getText().toString();
+
+                    //study 객체에 추가하기........
+
+                    textView1.setText(Integer.toString(studies.size())+"번째 스터디");
+                    textView2.setText(((Study)studies.get(studies.size()-1)).getDate());
+                    textView3.setText(((Study)studies.get(studies.size()-1)).getStartLocation().getName());
+
+                    //builder.dismiss();
+                    builder.hide();
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
+            dialog.setCanceledOnTouchOutside(false);
+            */
+        }
+
+        return v;
+    }
+
+}
